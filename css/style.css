@@ -1,0 +1,251 @@
+/* style for header section */
+
+.header,
+.footer {
+    background-size: cover;
+}
+
+hr {
+    border: 0.1px solid rgb(201, 192, 192);
+    opacity: 0.3;
+    margin-top: 0;
+}
+
+.silver-color {
+    color: rgb(201, 192, 192);
+}
+
+#button {
+    background-color: rgba(155, 15, 15, 0.911);
+    color: rgb(201, 192, 192);
+    border: 0;
+    height: 40px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+#button:hover {
+    opacity: 0.8;
+}
+
+.description {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.delay {
+    transition: 0.75s;
+}
+
+@media (max-width: 992px) {
+    .navbar-list li:hover {
+        background-color: rgb(226, 225, 222);
+    }
+    div.collapse .navbar-list a.nav-link:hover {
+        color: rgb(54, 52, 54);
+    }
+    .card {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 900px) {
+    .description {
+        width: 80%;
+    }
+}
+
+
+/* style for feature section */
+
+i.fas,
+i.far {
+    font-size: 5em;
+    color: rgba(155, 15, 15, 0.911);
+}
+
+.features {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* style for images section */
+
+.item-wrapper {
+    position: relative;
+}
+
+.background-image {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.subtitle {
+    color: transparent;
+    font-weight: 600;
+    transition: color 1s;
+}
+
+.subtitle-color {
+    color: lightseagreen;
+}
+
+.img-darken {
+    filter: brightness(40%);
+    transition: 1s;
+}
+
+
+/* style for profiles section */
+
+.profiles {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.card .card-image {
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    pointer-events: none;
+}
+
+.card-caption {
+    font-weight: 700;
+    font-family: "Roboto Slab", "Times New Roman", serif;
+}
+
+.card .card-image .card-caption {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #fff;
+    font-size: 1.3em;
+    text-shadow: 0 2px 5px rgba(33, 33, 33, 0.5);
+}
+
+.table {
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.category {
+    position: relative;
+    line-height: 0;
+    margin: 15px 0;
+}
+
+.card .table {
+    padding: 15px 30px;
+}
+
+.img-width-100 {
+    width: 100%;
+}
+
+.text-color {
+    color: rgba(155, 15, 15, 0.911);
+}
+
+.social-link i {
+    font-size: 2em;
+    margin: 0px 10px 20px 0;
+}
+
+
+/* style for news slider */
+
+.limited-height {
+    height: 250px;
+}
+
+.backgournd-silver-color {
+    background-color: darkgrey;
+}
+
+div.footer-copyright i {
+    font-size: 20px;
+}
+
+.white-color {
+    color: white;
+}
+
+
+/* sytle for footer */
+
+.hr-footer {
+    width: 70%;
+}
+
+@media (max-width: 767px) {
+    .footer-column {
+        margin-top: 10px;
+    }
+    .footer-column:after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        padding-top: 5px;
+        border-bottom: 1px solid rgb(201, 192, 192);
+    }
+    .hr-footer {
+        display: none;
+    }
+    .footer-column:last-child {
+        margin-bottom: 10px;
+    }
+    .news {
+        margin-left: 5px;
+    }
+}
